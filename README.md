@@ -65,3 +65,38 @@ Copyright © BreakWa11 2017. Fork from Shadowsocks by clowwindy
 [Appveyor]:       https://ci.appveyor.com/project/breakwa11/shadowsocksr-csharp
 [Build Status]:   https://ci.appveyor.com/api/projects/status/itcxnad1y95gf2x5/branch/master?svg=true
 [latest release]: https://github.com/shadowsocksr/shadowsocksr-csharp/releases
+
+
+下載到最新版4.7.0之後，你會發現它是一個7zip檔案，你的電腦需要有7zip或WinRAR才可為它解壓縮（如果你的WinRAR解壓不到，請安裝7zip，下載網址：http://www.7-zip.org）。
+
+Step1：取得資源的設定檔（如有）
+
+除了手動輸入伺服器資料外，ShadowsocksR還支援匯入設定檔，這樣就毋須逐項資料打進去。在筆者使用的SSR資源中，就有提供設定檔。（如果你找到的資源沒有提供設定檔，請繼續看下去，以手動輸入資料）
+
+
+
+
+
+Step2：打開ShadowsocksR讀入設定檔 或 手動輸入伺服器資料
+
+解壓縮下載得來的ShadowsocksR後，直接執行它裡面的ShadowsocksR-dotnet4.exe檔案。
+
+
+
+你會在電腦畫面右下角Windows系統列中找到ShadowsocksR的圖示。請以滑鼠右擊此圖示，並進入「伺服器＞從文件導入伺服器」，再讀入剛才下載得來的json設定檔便可。
+
+
+
+如果伺服器資源沒有設定檔提供，就直接點擊ShadowsocksR在Windows系統列的圖示，在彈出來的「編輯伺服器」視窗中手動輸入資料，包括伺服器網址、連接埠、密碼、加密方式、協議、混淆方式等。
+
+
+
+Step3：選取使用你新增的伺服器
+
+利用滑鼠右擊ShadowsocksR的Windows系統列圖示，進入「伺服器」，並選取你剛才加入的伺服器。
+
+
+
+Step4：選取使用「全局模式」，開始上網！
+
+最後同樣在ShadowsocksR的選單中，進入「系統代理模式」，選擇「全局模式」便正式使用SSR來翻牆上網。在此選項中選擇「直連模式」或者將ShadowsocksR結束，就能回復正常的上網狀態。
